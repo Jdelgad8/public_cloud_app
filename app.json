@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Public Cloud",
+    "description": "Public cloud app built with React native. v 0.3",
+    "slug": "client",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": "./src/assets/ucc-logo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.jdelgado.public_cloud"
+    }
+  }
+}
